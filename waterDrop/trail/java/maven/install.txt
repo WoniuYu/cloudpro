@@ -1,0 +1,6 @@
+安装本地 jar 到 maven 仓库
+ 
+  第一种: 直接把 jar文件复制到对应的目录；
+
+  第二种: 在 jar 包所在目录，执行 
+            mvn install:install-file -DgroupId=com.aliyun -DartufactId=aliyun-sdk-vod-upload -Dversion=1.4.11 -Dpackaging=jar -Dfile=aliyun-java-vod-upload-1.4.11.jar

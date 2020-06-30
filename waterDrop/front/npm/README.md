@@ -1,0 +1,1 @@
+npm 设置国内镜像： npm config set registry http://registry.npm.taobao.org/
